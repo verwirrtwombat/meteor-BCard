@@ -1,12 +1,22 @@
 <template name="newForm">
-  <form>
+<div class="bCard">
+  <form class = "f1">
 		<ul class="list-style-none">
-			<li>First Name: <input type="text" id="firstName"></li>
-			<li>Last Name: <input type="text" id="lastName"></li>
-			<li>Quote: <input type="text" id="quote"></li>
-			<li>Gender: <input type="text" id="gender"></li>
-			<li>GitHub Link: <input type="url" id="githubLink"></li>
-			<li><input type="submit" value="Add"></li>
+			<li>First Name: 
+			<br><input type="text" id="firstName"></li>
+			<li>Last Name: 
+			<br><input type="text" id="lastName"></li>
+			<li>Quote: 
+			<br><input type="text" id="quote"></li>
+			<li>Gender: 
+			<br><input type="text" id="gender"></li>
+			<li>GitHub Link: 
+			<br><input type="url" id="githubLink"></li>
+			<li><input type="submit" value="Tryit"></li>
 		</ul>
 	</form>
+	<form class ="f2"><li><input type="submit" value="Go"></li></form>
+</div>
+<p>...</p>
+{{> bCard}}
 </template>
