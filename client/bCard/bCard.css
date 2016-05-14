@@ -2,8 +2,8 @@ body {
 
   /* Box-model */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   min-height: 100vh;
 
   /* Typography */
@@ -21,6 +21,7 @@ body {
 
   /* Typography */
   text-align: center;
+  
 
   /* Visual */
   background-color: white;
